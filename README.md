@@ -68,4 +68,62 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [React Documentation](https://react.dev/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+- [React Router Documentation](https://reactrouter.com/)
+- 
+
+
+
+# React.js, JSX, and Tailwind CSS - Front-End Development Project
+
+This project is a responsive React application built with Vite, JSX, and Tailwind CSS. It demonstrates key front-end development concepts including component architecture, state management with React Hooks, API integration, and responsive styling.
+
+## 🚀 Features
+
+* **Component Architecture:** Reusable `Button`, `Card`, `Navbar`, `Footer`, `ThemeSwitcher`, and `TaskItem` components.
+* **Layout Component:** A `MainLayout` that structures pages with a consistent header and footer.
+* **State Management:**
+    * `useState` for managing local component state (e.g., form inputs, task lists).
+    * `useEffect` for side effects like fetching data and interacting with local storage.
+    * `useContext` for global theme management (light/dark mode).
+* **Custom Hook:** `useLocalStorage` for persisting task data across sessions.
+* **API Integration:**
+    * Fetches public data from JSONPlaceholder.
+    * Displays fetched data in a list/grid.
+    * Implements loading and error states for API calls.
+    * Includes pagination for API results.
+    * Provides a search feature to filter API results by title and body.
+* **Styling with Tailwind CSS:**
+    * Fully responsive design for mobile, tablet, and desktop.
+    * Theme switcher for light and dark modes.
+    * Extensive use of Tailwind's utility classes for layout, typography, spacing, and colors.
+    * Basic custom animations/transitions.
+* **Routing:** Configured using React Router for seamless navigation between `Home`, `Tasks`, `API Data`, and `About` pages, plus a 404 handler.
+
+## 🛠️ Setup
+
+### Prerequisites
+
+* Node.js (v18 or higher recommended)
+* npm (Node Package Manager)
+
+### Installation
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone <your-github-classroom-repo-link>
+    cd react-app-project
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+### Running the Development Server
+
+To start the development server:
+
+```bash
+npm run dev
